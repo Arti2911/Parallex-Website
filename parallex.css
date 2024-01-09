@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.bimg1{
+    background-image: url(image4a.jpg);
+    min-height: 100vh;
+}
+.bimg2{
+    background-image: url(image1a.jpg);
+    min-height: 70vh;
+}
+.bimg3{
+    background-image: url(image2a.jpg);
+    min-height: 70vh;
+}
+.bimg4{
+    background-image: url(image3a.jpg);
+    min-height: 70vh;
+}
+.bimg1, .bimg2, .bimg3, .bimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.txtbg{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    /* transform: translate(-50% -50%); */
+    /* border: 2px solid orangered; */
+    
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+.txtbg h2{
+    padding: 0.9em;
+    background-color: #323534;
+    color: #fff;
+}
+.section1{
+    padding :3em;
+    text-align: justify;
+    background-color: #282e34;
+    color: #ddd;
+}
+.section1 h3{
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0.5em;
+}
